@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+.idea
+.project
+.settings
+.exercism
+package-lock.json
+
+# sst build output
+.build
+.sst
+
+# environments
+.env*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+cdkOut.json
+
+*jest-results.json
+
+.tool-versions
+
+stacks/src/customer/cf-files/customer-specific/readonly
+stacks/src/customer/cf-files/customer-specific/readonly/*
